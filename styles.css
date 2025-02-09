@@ -1,0 +1,59 @@
+.hero {
+    background: url('hostaleden.jpg') no-repeat center center;
+    background-size: cover;
+    color: rgb(17, 17, 17);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Great Vibes', cursive;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.reservation-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reservation-input {
+    flex: 1;
+    min-width: 200px;
+}
+
+.reservation-button {
+    width: 100%;
+    margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+    .reservation-section {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.footer {
+    font-size: 0.9rem;
+    padding: 20px 10px;
+}
+
+.footer h2 {
+    font-size: 1.2rem;
+}

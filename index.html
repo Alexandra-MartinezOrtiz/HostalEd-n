@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOSTAL EL EDÉN</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Hostal El Edén</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#habitaciones">Habitaciones</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Bienvenido al Hostal El Edén</h1>
+        <p>Tu mejor experiencia en el centro del mundo</p>
+    </header>
+
+    <section id="reservar" class="container my-5">
+        <h2 class="text-center">Reserva Tu Estancia</h2>
+        <div class="reservation-section">
+            <div class="reservation-input">
+                <label for="fecha-llegada" class="form-label">Fecha de llegada</label>
+                <input type="date" id="fecha-llegada" class="form-control">
+            </div>
+            <div class="reservation-input">
+                <label for="fecha-salida" class="form-label">Fecha de salida</label>
+                <input type="date" id="fecha-salida" class="form-control">
+            </div>
+            <div class="reservation-input">
+                <label for="huespedes" class="form-label">Huéspedes</label>
+                <select id="huespedes" class="form-control">
+                    <option>1 Huésped</option>
+                    <option>2 Huéspedes</option>
+                    <option>3 Huéspedes</option>
+                    <option>4 Huéspedes</option>
+                </select>
+            </div>
+            <button class="btn btn-primary reservation-button">Ver Disponibilidad</button>
+        </div>
+    </section>
+
+    <section id="habitaciones" class="container my-5">
+        <h2 class="text-center">Nuestras Habitaciones</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="/Galeria/Habitacion1.jpg" class="card-img-top" alt="Habitación 1">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Galeria/Habitacion2.jpg" class="card-img-top" alt="Habitación 2">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Galeria/Habitacion3.jpg" class="card-img-top" alt="Habitación 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto" class="footer bg-dark text-white text-center py-3">
+        <p>Dirección: Ernesto Vaca y Alfonso Lamiña s4-148, Quito, Ecuador</p>
+        <p>Teléfono: +593 950 154 07</p>
+        <p>Correo: hostaleleden3@gmail.com</p>
+        <p>&copy; 2025 HOSTAL EL EDÉN - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
