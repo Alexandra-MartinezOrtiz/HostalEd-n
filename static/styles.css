@@ -1,7 +1,7 @@
 .hero {
-    background: url('hostaleden.jpg') no-repeat center center;
+    background: url('static/images/hostaleden.jpg') no-repeat center center;
     background-size: cover;
-    color: rgb(17, 17, 17);
+    color: rgb(255, 215, 0);
     text-align: center;
     padding: 100px 20px;
 }
